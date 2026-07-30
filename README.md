@@ -5,7 +5,7 @@
 ### A quiet, dark-purple theme for Zed
 
 [![Zed Theme](https://img.shields.io/badge/Zed-theme-cba6f7?style=flat-square&labelColor=11111b)](https://zed.dev)
-[![Version](https://img.shields.io/badge/version-0.2.0-b4befe?style=flat-square&labelColor=11111b)](./extension.toml)
+[![Version](https://img.shields.io/badge/version-0.2.1-b4befe?style=flat-square&labelColor=11111b)](./extension.toml)
 [![Theme Schema](https://img.shields.io/badge/schema-v0.2.0-89b4fa?style=flat-square&labelColor=11111b)](https://zed.dev/schema/themes/v0.2.0.json)
 
 Frosted dark surfaces, restrained borders, soft contrast, and a focused purple accent—designed to match the Sousa Nebula terminal palette without distracting from the code.
@@ -26,6 +26,7 @@ Frosted dark surfaces, restrained borders, soft contrast, and a focused purple a
 - Carefully balanced line numbers, indentation guides, and active-line states.
 - Syntax colors for common language constructs and semantic states.
 - Complete ANSI terminal palette included in the theme.
+- Distinct cursors and selections for collaborative editing.
 
 ## Palette
 

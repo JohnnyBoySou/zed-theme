@@ -1,6 +1,6 @@
 id = "sousa-nebula-theme"
 name = "Sousa Nebula Theme"
-version = "0.2.0"
+version = "0.2.1"
 schema_version = 1
 authors = ["João Sousa <JohnnyBoySou@users.noreply.github.com>"]
 description = "A subtle dark-purple Zed theme inspired by the Sousa Nebula terminal palette."
