@@ -67,6 +67,38 @@ Zed automatically reloads the theme while its files are being edited.
 > [!NOTE]
 > Blur depends on window-system and compositor support. On unsupported environments, the translucent surfaces may appear without background blur.
 
+## Recommended Zed settings
+
+Theme extensions cannot change editor preferences automatically. For the intended Sousa Nebula experience, add these optional settings to your Zed `settings.json`:
+
+```jsonc
+{
+  "buffer_line_height": { "custom": 1.5 },
+  "rounded_selection": true,
+  "selection_highlight": true,
+  "current_line_highlight": "all",
+  "cursor_shape": "bar",
+  "cursor_blink": true,
+  "active_pane_modifiers": {
+    "border_size": 1.0,
+    "inactive_opacity": 0.97
+  },
+  "scrollbar": {
+    "show": "auto",
+    "axes": {
+      "horizontal": false,
+      "vertical": true
+    }
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true,
+    "show_close_button": "hover",
+    "show_diagnostics": "all"
+  }
+}
+```
+
 ## Project structure
 
 ```text
