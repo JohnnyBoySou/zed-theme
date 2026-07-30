@@ -5,10 +5,10 @@
 ### A quiet, dark-purple theme for Zed
 
 [![Zed Theme](https://img.shields.io/badge/Zed-theme-cba6f7?style=flat-square&labelColor=11111b)](https://zed.dev)
-[![Version](https://img.shields.io/badge/version-0.1.0-b4befe?style=flat-square&labelColor=11111b)](./extension.toml)
+[![Version](https://img.shields.io/badge/version-0.2.0-b4befe?style=flat-square&labelColor=11111b)](./extension.toml)
 [![Theme Schema](https://img.shields.io/badge/schema-v0.2.0-89b4fa?style=flat-square&labelColor=11111b)](https://zed.dev/schema/themes/v0.2.0.json)
 
-Deep backgrounds, restrained borders, soft contrast, and a focused purple accent—designed to match the Sousa Nebula terminal palette without distracting from the code.
+Frosted dark surfaces, restrained borders, soft contrast, and a focused purple accent—designed to match the Sousa Nebula terminal palette without distracting from the code.
 
 <br>
 
@@ -19,6 +19,7 @@ Deep backgrounds, restrained borders, soft contrast, and a focused purple accent
 ## Highlights
 
 - Deep `#11111b` editor background with layered surfaces.
+- Native blurred-window appearance with carefully tuned transparency.
 - Subtle borders that blend naturally into the interface.
 - Purple focus states using `#cba6f7` and muted variants.
 - Cohesive colors across tabs, panels, menus, scrollbars, and the terminal.
@@ -61,6 +62,9 @@ Sousa Nebula can currently be installed as a development extension.
    - macOS: `Cmd+K`, then `Cmd+T`
 
 Zed automatically reloads the theme while its files are being edited.
+
+> [!NOTE]
+> Blur depends on window-system and compositor support. On unsupported environments, the translucent surfaces may appear without background blur.
 
 ## Project structure
 
