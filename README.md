@@ -10,6 +10,10 @@
 
 Deep backgrounds, restrained borders, soft contrast, and a focused purple accent—designed to match the Sousa Nebula terminal palette without distracting from the code.
 
+<br>
+
+<img src="./print.png" alt="Sousa Nebula theme running in Zed" width="100%">
+
 </div>
 
 ## Highlights
